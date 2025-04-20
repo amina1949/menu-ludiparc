@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-white text-gray-800 antialiased;
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    background-image: url('WhatsApp Image 2025-04-20 at 13.44.19.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scale-98 {
+    transform: scale(0.98);
+  }
+
+  .gold-gradient {
+    background: linear-gradient(45deg, #8B6B23 0%, #BF9B30 25%, #FFDC73 50%, #BF9B30 75%, #8B6B23 100%);
+  }
+
+  .brown-gradient {
+    background: linear-gradient(to right, #2C1810 0%, #4A2C22 100%);
+  }
+
+  .moroccan-pattern {
+    background-image: url('https://images.pexels.com/photos/6447414/pexels-photo-6447414.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .menu-title-decoration {
+    position: relative;
+  }
+
+  .menu-title-decoration::before,
+  .menu-title-decoration::after {
+    content: '❖';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #BF9B30;
+    font-size: 1.5rem;
+  }
+
+  .menu-title-decoration::before {
+    left: -2rem;
+  }
+
+  .menu-title-decoration::after {
+    right: -2rem;
+  }
+}
+
+@layer components {
+  .menu-item {
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(191, 155, 48, 0.2);
+    backdrop-filter: blur(8px);
+  }
+  
+  .menu-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background: linear-gradient(to bottom, #BF9B30, #FFDC73);
+    transition: height 0.3s ease;
+  }
+  
+  .menu-item:hover::before {
+    height: 100%;
+  }
+
+  .menu-item:hover {
+    border-color: rgba(191, 155, 48, 0.5);
+    box-shadow: 0 4px 20px rgba(191, 155, 48, 0.15);
+    background: rgba(255, 255, 255, 0.98);
+    transform: translateY(-2px);
+  }
+
+  .menu-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://images.pexels.com/photos/6447414/pexels-photo-6447414.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-size: 200px;
+    background-position: center;
+    opacity: 0.1;
+    border-radius: 0 0 8px 0;
+    pointer-events: none;
+  }
+}
+
+.section-background {
+  background: linear-gradient(to right, rgba(44, 24, 16, 0.95), rgba(74, 44, 34, 0.95));
+  border: 1px solid rgba(191, 155, 48, 0.1);
+  backdrop-filter: blur(12px);
+}
