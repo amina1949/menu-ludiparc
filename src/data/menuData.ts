@@ -7,10 +7,10 @@ export const menuData: MenuData = {
       id: "boissons",
       title: "BOISSON",
       items: [
-        { name: "Thé a la menthe", accompaniments: "EAU 33CL", price: "12", priceName: "PV" },
-        { name: "Café noir", accompaniments: "EAU 33CL", price: "15", priceName: "PV" },
-        { name: "Café latte", accompaniments: "EAU 33CL", price: "17", priceName: "PV" },
-        { name: "Chocolat chaud", accompaniments: "EAU 33CL", price: "18", priceName: "PV" },
+        { name: "Thé a la menthe", accompaniments: "EAU 33CL", price: "12" },
+        { name: "Café noir", accompaniments: "EAU 33CL", price: "15" },
+        { name: "Café latte", accompaniments: "EAU 33CL", price: "17" },
+        { name: "Chocolat chaud", accompaniments: "EAU 33CL", price: "18" },
         { name: "Eau 0,5cl", price: "5" },
         { name: "EAU 1,5 L", price: "12" },
         { name: "Jus D'ORANGE", price: "17" },
@@ -22,7 +22,7 @@ export const menuData: MenuData = {
       id: "petit-dej",
       title: "PETIT DEJ",
       items: [
-        { name: "M'qilla khlii aux oeufs", accompaniments: "OLIVE + PAIN", price: "45", priceName: "PV" },
+        { name: "M'qilla khlii aux oeufs", accompaniments: "OLIVE + PAIN", price: "45" },
         { name: "M'qilla oeufs charcuterie / fromage", price: "40" },
         { name: "RGHIFA + HARCHA + fromage/ beurre + Miel/ Confiture", accompaniments: "THE a la menthe + HSOUA + EAU M", price: "35" },
         { name: "Pain grillé + fromage/ beurre + miel/ Confiture", accompaniments: "THE a la menthe + HSOUA + EAU M", price: "35" },

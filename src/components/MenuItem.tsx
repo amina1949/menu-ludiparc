@@ -16,7 +16,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
           <div className="absolute -bottom-1 left-0 right-0 h-px bg-[#BF9B30]/20 transform origin-left scale-x-0 transition-transform group-hover:scale-x-100"></div>
         </h3>
         {description && (
-          <p className="text-gray-600 text-sm mt-2">{description}</p>
+          <p className="text-[#8B6B23] text-sm mt-2 italic font-medium ">{description}</p>  //edite colot
         )}
         {accompaniments && (
           <p className="text-[#8B6B23] text-sm mt-2 italic font-medium">
@@ -45,3 +45,38 @@ const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
 };
 
 export default MenuItem;
+
+
+
+// MenuItem.tsx - Removed PV part
+// import React from 'react';
+// import { MenuItem as MenuItemType } from '../types/menu';
+
+// interface MenuItemProps {
+//   item: MenuItemType;
+// }
+
+// const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
+//   const { name, description, accompaniments } = item;
+  
+//   return (
+//     <div className="group menu-item p-4 sm:p-6 rounded-lg transition-all duration-300 flex flex-col sm:flex-row justify-between items-start">
+//       <div className="flex-grow pr-4 mb-3 sm:mb-0">
+//         <h3 className="text-base sm:text-lg font-medium text-[#2C1810] relative inline-block">
+//           {name}
+//           <div className="absolute -bottom-1 left-0 right-0 h-px bg-[#BF9B30]/20 transform origin-left scale-x-0 transition-transform group-hover:scale-x-100"></div>
+//         </h3>
+//         {description && (
+//           <p className="text-gray-600 text-xs sm:text-sm mt-2">{description}</p>
+//         )}
+//         {accompaniments && (
+//           <p className="text-[#8B6B23] text-xs sm:text-sm mt-2 italic font-medium">
+//             + {accompaniments}
+//           </p>
+//         )}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default MenuItem;

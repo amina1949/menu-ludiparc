@@ -10,7 +10,7 @@
   body {
     @apply bg-white text-gray-800 antialiased;
     font-family: 'Poppins', system-ui, -apple-system, sans-serif;
-    background-image: url('WhatsApp Image 2025-04-20 at 13.44.19.jpeg');
+    background-image: url('src/IMG/bg.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -39,11 +39,11 @@
     background: linear-gradient(to right, #2C1810 0%, #4A2C22 100%);
   }
 
-  .moroccan-pattern {
+  /* .moroccan-pattern {
     background-image: url('https://images.pexels.com/photos/6447414/pexels-photo-6447414.jpeg?auto=compress&cs=tinysrgb&w=800');
     background-size: cover;
     background-position: center;
-  }
+  } */
 
   .menu-title-decoration {
     position: relative;
@@ -99,20 +99,20 @@
     transform: translateY(-2px);
   }
 
-  .menu-item::after {
+  /* .menu-item::after {
     content: '';
     position: absolute;
     bottom: 0;
     right: 0;
     width: 50px;
     height: 50px;
-    background-image: url('https://images.pexels.com/photos/6447414/pexels-photo-6447414.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-image: url('https://images.pexels./photos/6447414/pexels-photo-6447414.jpeg?auto=compress&cs=tinysrgb&w=800');
     background-size: 200px;
     background-position: center;
     opacity: 0.1;
     border-radius: 0 0 8px 0;
     pointer-events: none;
-  }
+  } */
 }
 
 .section-background {
