@@ -1,6 +1,7 @@
+// Créateurs de cette application et propriétaires de BipCard _l'avenir vous attend avec les cartes NFC_
+// info : insta :   getbipcard   , gmail : getbipcard@gmail.com      , wathssap : +21278399312 
 
 
-// App.tsx - Updated with AMORESA AGED font for titles
 import  { useState, useEffect } from 'react';
 import Header from './components/Header';
 import MenuContainer from './components/MenuContainer';
@@ -80,11 +81,11 @@ function App() {
               Réserver une table
             </a>
             <span className="hidden sm:inline text-[#BF9B30]/30">|</span>
-            <a href="#" className="hover:text-[#FFDC73] transition-colors text-sm sm:text-base">
+            <a href="https://www.ludiparc-meknes.com/contact/" className="hover:text-[#FFDC73] transition-colors text-sm sm:text-base">
               Contact
             </a>
             <span className="hidden sm:inline text-[#BF9B30]/30">|</span>
-            <a href="#" className="hover:text-[#FFDC73] transition-colors text-sm sm:text-base">
+            <a href="https://g.co/kgs/9o5LnFF" className="hover:text-[#FFDC73] transition-colors text-sm sm:text-base">
               Voir l'emplacement
             </a>
           </div>
