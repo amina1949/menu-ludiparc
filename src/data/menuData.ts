@@ -1,7 +1,7 @@
 import { MenuData } from '../types/menu';
 
 export const menuData: MenuData = {
-  restaurantName: "La Carte du Foundouk",
+  restaurantName: "La Carte du Ludiparc",
   sections: [
     {
       id: "boissons",
