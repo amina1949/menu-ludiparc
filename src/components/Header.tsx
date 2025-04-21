@@ -24,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ sections, activeSection, setActiveSecti
   return (
     <header 
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 shadow-lg shadow-black/5 backdrop-blur-md py-2' : 'bg-transparent py-2 sm:py-4'
+        isScrolled ? 'bg-white/10 shadow-lg shadow-black/5 backdrop-blur-md py-2' : 'bg-transparent py-2 sm:py-4'
       }`}
     >
       <div className="container mx-auto px-4">
