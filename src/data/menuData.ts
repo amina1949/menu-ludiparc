@@ -4,7 +4,7 @@ export const menuData: MenuData = {
   restaurantName: "La Carte du Ludiparc",
   sections: [
     {
-      id: "boissons",
+      id: "boissons", 
       title: "BOISSON",
       items: [
         { name: "Thé a la menthe", accompaniments: "EAU 33CL", price: "12" },
@@ -78,7 +78,11 @@ export const menuData: MenuData = {
         { name: "Pastilla poulet individuel", price: "35" },
         { name: "Pastilla poisson individuel", price: "40" },
         { name: "Gateau Beldi 5p (3 sale + 2 amande)", price: "20" },
-        { name: "Macaron/P", price: "7" }
+        { name: "Macaron/P", price: "7" },
+        { name: "Amande Canelle", price: "30" },
+        { name: "Amande Anis", price: "30" },
+        { name: "Grains Sucré", price: "20" },
+        { name: "Corné Fromage", price: "20" },
       ]
     }
   ]
