@@ -7,64 +7,62 @@ export const menuData: MenuData = {
       id: "boissons", 
       title: "BOISSON",
       items: [
-        { name: "Thé a la menthe", accompaniments: "EAU 33CL", price: "12" },
+        { name: "Thé a la menthe",  price: "12" },
         { name: "Café noir", accompaniments: "EAU 33CL", price: "15" },
-        { name: "Café latte", accompaniments: "EAU 33CL", price: "17" },
-        { name: "Chocolat chaud", accompaniments: "EAU 33CL", price: "18" },
-        { name: "Eau 0,5cl", price: "5" },
+        { name: "Café latte", accompaniments: "EAU 33CL", price: "18" },
+        { name: "Chocolat chaud", accompaniments: "EAU 33CL", price: "20" },
+        { name: "Eau 0,5cl", price: "7" },
         { name: "EAU 1,5 L", price: "12" },
-        { name: "Jus D'ORANGE", price: "17" },
-        { name: "Jus D'ORANGE/ FRAISE", price: "22" },
+        { name: "Jus D'ORANGE", price: "20" },
+        { name: "Jus D'ORANGE FRAISE", price: "30" },
         { name: "Soda 33CL", price: "15" }
       ]
     },
     {
-      id: "petit-dej",
+      id: "petit-déjeuner",
       title: "PETIT DEJ",
       items: [
-        { name: "M'qilla khlii aux oeufs", accompaniments: "OLIVE + PAIN", price: "45" },
-        { name: "M'qilla oeufs charcuterie / fromage", price: "40" },
-        { name: "RGHIFA + HARCHA + fromage/ beurre + Miel/ Confiture", accompaniments: "THE a la menthe + HSOUA + EAU M", price: "35" },
-        { name: "Pain grillé + fromage/ beurre + miel/ Confiture", accompaniments: "THE a la menthe + HSOUA + EAU M", price: "35" },
-        { name: "OUMLETTE FROMAGE (3oeufs)", accompaniments: "garniture + PAIN", price: "25" },
-        { name: "HRIRA + DATE + OUEF DURE + PAIN", price: "25" },
+        { name: "Mkila khlii aux oeufs", accompaniments: "hsoua", price: "45" },
+        { name: "Mkila oeufs charcuterie / fromage", price: "40" },
+        { name: "RGHIFA + HARCHA + fromage/ beurre + Miel/ Confiture", accompaniments: "THE a la menthe + HSOUA ", price: "35" },
+        { name: "Pain grillé + fromage/ beurre + miel/ Confiture", accompaniments: "THE a la menthe + HSOUA ", price: "35" },
+        { name: "OUMLETTE FROMAGE (2oeufs)", accompaniments: "garniture + PAIN", price: "30" },
+        { name: "HRIRA + DATE + OUEF DURE + PAIN", price: "35" },
         { name: "HSSOUA + DATE", price: "15" },
         { name: "MIEL P", price: "5" },
         { name: "CONFITURE P", price: "5" },
-        { name: "BEURRE P", price: "5" },
-        { name: "HRICHA", price: "5" },
-        { name: "RGHIFA", price: "5" }
+        { name: "BEURRE P", price: "5" }
       ]
     },
     {
-      id: "dejeuner",
-      title: "DEJEUNER",
+      id: "TAGINES",
+      title: "TAGINES",
       items: [
-        { name: "Plat chauds", price: "", description: "Plats principaux" },
-        { name: "Tagine kefta sauce tomates oeuf", accompaniments: "Pain + Eau", price: "55" },
-        { name: "Tagine de poulet citorns confits deghmira marocaine", accompaniments: "Pain + Eau", price: "60" },
-        { name: "Tagine viande oignons caramelisé, pruneaux et raisins secs", accompaniments: "Pain + Eau", price: "65" }
+        { name: "Tagine kefta sauce tomates oeuf", accompaniments: "Pain ", price: "65" },
+        { name: "Tagine de poulet citorns confits deghmira marocaine", accompaniments: "Pain ", price: "60" },
+        { name: "Tagine viande oignons caramelisé, pruneaux et raisins secs", accompaniments: "Pain ", price: "70" }
       ]
     },
     {
       id: "sandwich",
       title: "SANDWICH",
       items: [
-        { name: "Sandwich merguez + (harissa)", accompaniments: "FRITE + limounade", price: "45" },
-        { name: "Sandwich Kefta avec oignons caramelisées", accompaniments: "FRITE + limounade", price: "50" },
-        { name: "Sandwich cesar poulet", accompaniments: "FRITE + limounade", price: "45" },
-        { name: "Frite", price: "17" },
-        { name: "Tacos Mixte", accompaniments: "Limounade / Eau 0,5L", price: "55" }
+        { name: "Sandwich merguez ", accompaniments: "FRITE", price: "45" },
+        { name: "Sandwich Kefta ", accompaniments: "FRITE ", price: "50" },
+        { name: "Sandwich cesar poulet", accompaniments: "FRITE ", price: "45" },
+        { name: "Tacos Mixte", accompaniments: "FRITE", price: "55" },
+        { name: "Frite", price: "15" }
+
       ]
     },
     {
       id: "salades",
       title: "SALADES ET ACCOMPAGNEMENTS",
       items: [
-        { name: "TAKTOUKA", price: "17" },
-        { name: "ZAALOUK", price: "17" },
-        { name: "SALADE Russe", description: "Patte + Pomme de terre + carotte + Souces", price: "35" },
-        { name: "Salade Cesar", description: "laitue + Tomate cerise + Concombre + blanc de poulet + Fromage + sauces venigre", price: "35" }
+        { name: "TAKTOUKA", price: "20" },
+        { name: "ZAALOUK", price: "20" },
+        { name: "SALADE Russe", description: "Patte + Pomme de terre + carotte + Sauce", price: "35" },
+        { name: "Salade Cesar", description: "laitue + Tomate cerise + Concombre + blanc de poulet + Fromage + sauce ", price: "45" }
       ]
     },
     {
@@ -76,12 +74,11 @@ export const menuData: MenuData = {
         { name: "Briouates Fromage au Miel", price: "25" },
         { name: "Naimes aux Choix (Epinard/ Légumes)", price: "30" },
         { name: "Pastilla poulet individuel", price: "35" },
-        { name: "Pastilla poisson individuel", price: "40" },
-        { name: "Gateau Beldi 5p (3 sale + 2 amande)", price: "20" },
-        { name: "Macaron/P", price: "7" },
+        { name: "Pastilla fruits de mer", price: "40" },
+        { name: "macaron/piece", price: "7" },
         { name: "Amande Canelle", price: "30" },
         { name: "Amande Anis", price: "30" },
-        { name: "Grains Sucré", price: "20" },
+        { name: "Grains aux sésames caramélisés", price: "20" },
         { name: "Corné Fromage", price: "20" },
       ]
     }
